@@ -102,6 +102,29 @@ h5 {
 .center {
   text-align: center;
 }
+.banner-img {
+  margin-bottom: 30px;
+}
+.banner-img img {
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .banner-img.desktop {
+    display: none;
+  }
+  .banner-img.mobile {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .banner-img.desktop {
+    display: block;
+  }
+  .banner-img.mobile {
+    display: none;
+  }
+}
+
 /*========================================================
                     header
 =========================================================*/
